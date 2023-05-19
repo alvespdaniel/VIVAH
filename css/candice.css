@@ -1,3 +1,13 @@
+.candice-body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seta-voltar {
+  margin-left: 12px;
+}
+
 .candice {
   background: url(../img/logo-fundo.png) no-repeat top right;
 }
@@ -83,6 +93,11 @@
 @media (max-width: 600px) {
   .candice {
     background: none;
+  }
+
+  .seta-voltar img {
+    height: 30px;
+    width: 20px;
   }
 
   .candice h2 {
