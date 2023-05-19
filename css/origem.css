@@ -1,0 +1,159 @@
+.secao-origem {
+  background: #FFFFFF;
+}
+
+.titulo-origem {
+  color: #000;
+}
+
+.titulo-topico {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.fachada-vivah img {
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+.foto-fachada {
+  object-fit: cover;
+  object-position: center right;
+}
+
+.fachada-vivah {
+  position: relative;
+}
+
+.selo-vivah {
+  position: absolute;
+  right: -50px;
+  top: -50px;
+}
+
+.historia-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  gap: 40px;
+  align-items: center;
+}
+
+.historia-texto p + p,
+.mais-historia-texto p + p {
+  margin-top: 40px;
+}
+
+.historia-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.mais-historia-texto {
+  margin-top: 60px;
+}
+
+.lista-historia {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lista-historia li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lista-historia li p {
+  color: #111;
+}
+
+@media (max-width: 992px) {
+  .fachada-vivah img:first-child {
+    height: 160px;
+    width: 160px;
+  }
+
+  .secao-origem .titulo-topico {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .historia-container {
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+  }
+
+  .fachada-vivah img:first-child {
+    height: 100px;
+    width: 100px;
+    top: 540px;
+    left: -10px;
+  }
+
+  .foto-fachada {
+    height: 600px;
+  }
+
+  .foto-fachada {
+    object-position: bottom right;
+  }
+
+  .historia-texto p + p,
+  .mais-historia-texto p + p,
+  .mais-historia-texto {
+    margin-top: 32px;
+  }
+
+  .titulo-topico {
+    gap: 12px;
+  }
+
+  .icone-titulo {
+    height: 24px;
+    width: 24px;
+  }
+
+  .lista-historia .fonte-lista {
+    font-size: 0.925rem;
+  }
+
+  .lista-historia li {
+    gap: 8px;
+  }
+
+  .lista-historia li img {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .historia-container {
+    margin-top: 40px;
+  }
+
+  .foto-fachada {
+    height: 400px;
+  }
+
+  .fachada-vivah img:first-child {
+    height: 100px;
+    width: 100px;
+    top: 340px;
+    left: -10px;
+  }
+
+  .historia-texto p + p,
+  .mais-historia-texto p + p,
+  .mais-historia-texto {
+    margin-top: 20px;
+  }
+}
+

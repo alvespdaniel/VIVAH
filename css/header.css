@@ -1,0 +1,135 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#botao-mobile {
+  display: none;
+}
+
+.menu-header {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-header li a {
+  padding: 10px 20px;
+  transition: .2s;
+}
+
+.menu-header li a:hover,
+.menu-header li a:focus {
+  color: #C79D45;
+}
+
+.fale-conosco-mobile {
+  display: none;
+}
+
+.fale-conosco {
+  padding: 12px 24px;
+  font-size: 1.35rem;
+  background-color: #ffffff00;
+  border: 2px solid #C79D45;
+  border-radius: 5px;
+  color: #C79D45;
+  transition: .2s;
+  white-space: nowrap;
+}
+
+.fale-conosco:hover {
+  background-color: #25D366;
+  border-color: #25D366;
+  color: #021121;
+}
+
+@media (max-width: 1200px) {
+  /* Header */
+  .logo-header {
+    height: 75px;
+    width: 250px;
+  }
+
+  .menu-header.fonte-lista li a {
+    padding: 6px 12px;
+  }
+
+  .menu-header.fonte-lista {
+    font-size: 1rem;
+  }
+
+  .fale-conosco.fonte-lista {
+    font-size: 1.125rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 992px){
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Header */
+  .menu-header.fonte-lista,
+  .fale-conosco.fonte-lista {
+    display: none;
+  }
+
+  #botao-mobile {
+    display: block;
+  }
+
+  .menu-header.fonte-lista.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    align-items: center;
+    top: 110px;
+    transition: .5s;
+    background-color: #082d15d0;
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  .fale-conosco-mobile {
+    display: block !important;
+    padding: 8px 16px;
+    background-color: #25D366;
+    border: 2px solid #25D366;
+    color: #004018;
+    border-radius: 4px;
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 768px){
+
+}
+
+@media(max-width: 600px) {
+  /* Header */
+  .logo-header {
+    height: 60px;
+    width: 200px;
+  }
+
+  #botao-mobile img {
+    height: 20px;
+    width: 30px;
+  }
+
+  .menu-header.fonte-lista.active {
+    padding: 20px 10px;
+    top: 90px;
+  }
+
+  .menu-header.fonte-lista.active li a {
+    font-size: 0.875rem;
+  }
+}

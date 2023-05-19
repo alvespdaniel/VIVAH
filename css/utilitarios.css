@@ -1,0 +1,9 @@
+.container {
+  max-width: 1440px;
+  padding: 30px 60px;
+  margin: 0 auto;
+}
+
+.background-verde {
+  background: linear-gradient(to top, #06362C 0%, #011D17 100%);
+}

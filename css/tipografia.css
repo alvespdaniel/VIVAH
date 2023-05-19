@@ -1,0 +1,49 @@
+.fonte-titulo {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.fonte-lista {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.fonte-texto {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: #111;
+}
+
+@media (max-width: 992px) {
+  .fonte-titulo {
+    font-size: 3.5rem;
+  }
+
+  .fonte-texto {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .fonte-titulo {
+    font-size: 3.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .fonte-titulo {
+    font-size: 2.525rem;
+  }
+
+  .fonte-texto {
+    font-size: 0.875rem;
+  }
+}
