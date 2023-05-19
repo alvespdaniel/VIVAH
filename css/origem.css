@@ -160,5 +160,9 @@
   .mais-historia-texto {
     margin-top: 20px;
   }
+
+  .mais-historia-texto p {
+    font-size: 0.875rem;
+  }
 }
 
