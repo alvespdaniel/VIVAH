@@ -50,7 +50,7 @@
 
 .doutor-descricao h3 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2rem !important;
   margin-left: 28px;
 }
 
@@ -81,7 +81,7 @@
 .doutor-descricao a {
   display: block;
   font-size: 1.25rem;
-  color: #e5aa2b;
+  color: #00e755;
   margin-top: 32px;
   justify-self: center;
   transition: 0.2s;
