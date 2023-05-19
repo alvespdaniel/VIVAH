@@ -1,0 +1,43 @@
+.candice-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 60px;
+}
+
+.candice-flex {
+  display: flex;
+  gap: 60px;
+}
+
+.candice-descricao {
+  justify-self: end;
+  align-self: flex-end;
+}
+
+.candice-descricao ul {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.candice-descricao h3 {
+  font-size: 3rem;
+}
+
+.candice-descricao li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.texto-candice {
+  margin-top: 28px;
+  line-height: 1.5;
+  grid-column: 1 / -1;
+}
+
+/* .texto-candice:first-of-type {
+  max-width: 35ch;
+  grid-column: 2 / 3;
+  justify-self: end;
+} */
