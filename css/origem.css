@@ -71,6 +71,7 @@
 
 .lista-historia li p {
   color: #111;
+  font-weight: 500;
 }
 
 @media (max-width: 992px) {
@@ -135,6 +136,10 @@
 }
 
 @media (max-width: 600px) {
+  .secao-origem .titulo-topico {
+    padding-top: 0px;
+  }
+
   .historia-container {
     margin-top: 40px;
   }
