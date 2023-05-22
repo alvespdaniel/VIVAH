@@ -28,6 +28,11 @@
   gap: 30px;
 }
 
+.sabrina-imagem {
+  display: flex;
+  justify-content: center;
+}
+
 .sabrina-descricao {
   justify-self: end;
   align-self: center;
@@ -114,7 +119,8 @@
   }
 
   .sabrina-imagem {
-    background: url(../img/logo-fundo-mobile.png) no-repeat top right;
+    justify-content: end;
+    background: url(../img/logo-fundo-mobile.png) no-repeat top left;
   }
 
   .sabrina-descricao h3 {

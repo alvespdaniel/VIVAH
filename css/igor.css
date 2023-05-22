@@ -28,6 +28,11 @@
   gap: 30px;
 }
 
+.igor-imagem {
+  display: flex;
+  justify-content: center;
+}
+
 .igor-descricao {
   justify-self: end;
   align-self: center;
@@ -114,6 +119,7 @@
   }
 
   .igor-imagem {
+    justify-content: initial;
     background: url(../img/logo-fundo-mobile.png) no-repeat top right;
   }
 

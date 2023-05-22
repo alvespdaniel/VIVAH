@@ -32,11 +32,7 @@
   margin-top: 72px;
 }
 
-/* .aparelho-item div {
-  align-self: center;
-} */
-
-.aparelho-item p {
+.aparelho-item figcaption {
   max-width: 35ch;
   font-size: 1.25rem;
 }
@@ -50,7 +46,7 @@
     height: 400px;
   }
 
-  .aparelho-item p {
+  .aparelho-item figcaption {
     font-size: 1rem;
   }
 
@@ -99,11 +95,11 @@
     margin-top: 40px;
   }
 
-  .aparelho-item p {
+  .aparelho-item figcaption {
     max-width: none;
   }
 
-  .aparelho-item div {
+  .aparelho-item figure {
     display: flex;
     justify-content: center;
   }
@@ -112,7 +108,7 @@
     height: 340px;
   }
 
-  .aparelho-item p {
+  .aparelho-item figcaption {
     font-size: 0.825rem;
   }
 }
