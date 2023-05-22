@@ -72,7 +72,6 @@
 @media (max-width: 992px) {
   .igor-imagem img {
     height: 500px;
-    width: 400px;
   }
 }
 
@@ -87,7 +86,6 @@
 
   .igor-imagem img {
     height: 400px;
-    width: 320px;
   }
 
   .igor-descricao h3 {
@@ -114,8 +112,7 @@
   }
 
   .igor-imagem img {
-    height: 300px;
-    width: 240px;
+    height: 350px;
   }
 
   .igor-imagem {
