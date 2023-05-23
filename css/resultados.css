@@ -70,6 +70,24 @@
   overflow-x: scroll;
 }
 
+#nossos-resultados .container {
+  position: relative;
+}
+
+.seta-direita {
+  position: absolute;
+  height: 60px;
+  top: 60%;
+  right: 1%;
+}
+
+@media (max-width: 768px) {
+  .seta-direita {
+    height: 30px;
+    top: 65%;
+  }
+}
+
 .container-resultados::-webkit-scrollbar {
   background-color: #fff;
   height: 10px;
