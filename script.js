@@ -7,4 +7,10 @@ function menuAtivado() {
   menuHeader.classList.toggle('active');
 }
 
+function botaoFechar(){
+  botaoMobile.classList.toggle('botao-fechar')
+}
+
 botaoMobile.addEventListener('click', menuAtivado);
+
+botaoMobile.addEventListener('click', botaoFechar)
