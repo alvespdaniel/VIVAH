@@ -1,3 +1,28 @@
+.candice {
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1684792491 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684792491 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 40px;
+}
+
+.custom-shape-divider-bottom-1684792491 .shape-fill {
+  fill: #FFFFFF;
+}
+
 .candice-body header {
   display: flex;
   align-items: center;
@@ -19,7 +44,7 @@
 .candice-container {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 60px;
+  margin: 60px 0px;
 }
 
 .candice-grid {

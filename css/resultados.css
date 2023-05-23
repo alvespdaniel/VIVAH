@@ -54,6 +54,11 @@
   fill: #FFFFFF;
 }
 
+#nossos-resultados p {
+  color: #fff;
+  margin-top: 40px;
+}
+
 .resultado img {
   border-radius: 8px;
   border: 3px solid #C79D45;
@@ -80,8 +85,11 @@
 }
 
 @media (max-width: 600px) {
+  #nossos-resultados h2 {
+    font-size: 2.5rem;
+  }
   .container-resultados {
-    padding-bottom: 40px;
+    padding: 40px 0px;
   }
 
   .resultado img {

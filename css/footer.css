@@ -2,6 +2,7 @@ footer {
   display: grid;
   justify-content: center;
   gap: 40px;
+  background-color: #fff;
 }
 
 footer figure {
