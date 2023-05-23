@@ -1,3 +1,5 @@
+// Menu Mobile
+
 const botaoMobile = document.getElementById('botao-mobile');
 
 function menuAtivado() {

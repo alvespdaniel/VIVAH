@@ -2,6 +2,10 @@
   padding-top: 30px;
 }
 
+#nossos-tratamentos {
+  margin-bottom: 40px;
+}
+
 .texto-tratamentos {
   margin-top: 40px;
 }
@@ -70,6 +74,10 @@
     padding-top: 12px;
     font-size: 2rem;
     gap: 8px !important;
+  }
+
+  #nossos-tratamentos {
+    margin-bottom: 20px;
   }
 
   .texto-tratamentos {

@@ -21,3 +21,9 @@
 
 /* Tratamentos */
 @import url(./tratamentos.css);
+
+/* Resultados de Clientes da VIVAH */
+@import url(./resultados.css);
+
+/* Footer */
+@import url(./footer.css);
