@@ -90,8 +90,8 @@
 
 .container-resultados::-webkit-scrollbar {
   background-color: #fff;
-  height: 10px;
-  border-radius: 5px;
+  height: 14px;
+  border-radius: 10px;
 }
 .container-resultados::-webkit-scrollbar-thumb {
   background-color: #C79D45;
@@ -108,6 +108,11 @@
   }
   .container-resultados {
     padding: 40px 0px;
+  }
+
+  .container-resultados::-webkit-scrollbar {
+    height: 10px;
+    border-radius: 5px;
   }
 
   .resultado img {

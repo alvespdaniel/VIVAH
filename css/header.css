@@ -43,15 +43,6 @@ body {
   14% { transform: rotate(0deg); }
 }
 
-/* @keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotateZ(40deg);
-  }
-} */
-
 .botao-whatsapp span {
   color: #004018;
   font-size: 1.25rem;
@@ -123,6 +114,7 @@ body {
 .menu-header li a:hover,
 .menu-header li a:focus {
   color: #C79D45;
+  transform: scale(1.2);
 }
 
 .fale-conosco-mobile {
