@@ -27,3 +27,6 @@
 
 /* Footer */
 @import url(./footer.css);
+
+/* Política de Privacidade e Termos de Uso */
+@import url(./privacidade.css);

@@ -1,0 +1,53 @@
+.politica-privacidade span,
+.politica-privacidade a {
+  color: #fff !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  font-size: 1.25rem;
+}
+
+.politica-privacidade h2 span {
+  font-size: 3rem !important;
+}
+
+.politica-privacidade h2 {
+  margin-bottom: 32px !important;
+}
+
+.politica-privacidade a {
+  color: #C79D45 !important;
+}
+
+.politica-privacidade p + p,
+.politica-privacidade span + span {
+  margin-bottom: 20px;
+}
+
+.politica-privacidade {
+  position: relative;
+}
+
+.mb-politica {
+  margin-bottom: 60px !important;
+}
+
+.custom-shape-divider-bottom-1684614122 {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684614122 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 40px;
+}
+
+.custom-shape-divider-bottom-1684614122 .shape-fill {
+  fill: #FFFFFF;
+}

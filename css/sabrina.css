@@ -26,11 +26,11 @@
 }
 
 .custom-shape-divider-bottom-1684792491 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .sabrina {
-  background: url(../img/logo-fundo.png) no-repeat top right;
+  background: url(../img/logo-fundo.webp) no-repeat top right;
   position: relative;
 }
 
@@ -139,7 +139,7 @@
 
   .sabrina-imagem {
     justify-content: center;
-    background: url(../img/logo-fundo-mobile.png) no-repeat top left;
+    background: url(../img/logo-fundo-mobile.webp) no-repeat top left;
   }
 
   .sabrina-descricao h3 {

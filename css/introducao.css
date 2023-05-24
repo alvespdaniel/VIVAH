@@ -1,11 +1,11 @@
 main {
-  background: url(../img/logo-fundo.png) no-repeat left;
+  background: url(../img/logo-fundo.webp) no-repeat left;
   background-size: contain;
 }
 
 .intro-background {
   position: relative;
-} 
+}
 
 .introducao {
   display: grid;
@@ -51,7 +51,7 @@ main {
 }
 
 .custom-shape-divider-bottom-1684189273 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 @media (max-width: 1200px) {
@@ -72,15 +72,15 @@ main {
   }
 
   main {
-    background: url(../img/logo-fundo.png) no-repeat right !important;
+    background: url(../img/logo-fundo.webp) no-repeat right !important;
     background-size: contain !important;
   }
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   /* Introdução */
   .titulo-intro {
     padding: 30px 30px 120px 30px !important;
@@ -89,8 +89,7 @@ main {
   }
 }
 
-@media(max-width: 600px) {
-
+@media (max-width: 600px) {
   /* Introdução */
   .titulo-intro {
     padding: 0px !important;
@@ -99,7 +98,7 @@ main {
   }
 
   main {
-    background: url(../img/garota-sorrindo-verde.png) no-repeat right !important;
+    background: url(../img/garota-sorrindo-verde.webp) no-repeat right !important;
     background-size: contain !important;
     background-blend-mode: overlay !important;
   }
