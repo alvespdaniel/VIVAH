@@ -56,18 +56,6 @@
 .candice-imagem {
   display: flex;
   justify-content: center;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.candice-imagem::after {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 15%;
-  bottom: -35px;
-  background-color: #022921;
-  filter: blur(20px);
 }
 
 .candice-descricao {
@@ -155,11 +143,6 @@
   .candice-imagem {
     justify-content: initial;
     background: url(../img/logo-fundo-mobile.png) no-repeat top right;
-  }
-
-  .candice-imagem::after {
-    bottom: -20px;
-    filter: blur(10px);
   }
 
   .candice-descricao h3 {
