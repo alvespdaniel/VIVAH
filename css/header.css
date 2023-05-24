@@ -22,7 +22,35 @@ body {
   transition: 0.3s;
   box-sizing: border-box;
   box-shadow: 2px 2px 4px #11111146;
+  animation: tilt-shaking 5s infinite;
 }
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  1% { transform: rotate(5deg); }
+  2% { transform: rotate(0deg); }
+  3% { transform: rotate(-5deg); }
+  4% { transform: rotate(0deg); }
+  5% { transform: rotate(0deg); }
+  6% { transform: rotate(-5deg); }
+  7% { transform: rotate(0deg); }
+  8% { transform: rotate(5deg); }
+  9% { transform: rotate(0deg); }
+  10% { transform: rotate(0deg); }
+  11% { transform: rotate(-5deg); }
+  12% { transform: rotate(0deg); }
+  13% { transform: rotate(5deg); }
+  14% { transform: rotate(0deg); }
+}
+
+/* @keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotateZ(40deg);
+  }
+} */
 
 .botao-whatsapp span {
   color: #004018;
