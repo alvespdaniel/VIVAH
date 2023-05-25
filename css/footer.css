@@ -24,6 +24,44 @@ footer ul {
   color: #4f3807;
 }
 
+.cookies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 100000;
+  background: linear-gradient(to right,#67e896 50%, #35c56a);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px 40px;
+
+  position: fixed;
+  bottom: 35px;
+  left: 10px;
+  margin-right: 10px;
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cookies p {
+  font-size: 1.125rem;
+  max-width: 80ch;
+  margin-right: 40px;
+}
+
+.cookies a {
+  color: #e57506;
+}
+
+.cookies button {
+  cursor: pointer;
+  background-color: #C79D45;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #141615;
+  font-size: 1.25rem;
+}
+
 @media (max-width: 768px) {
   footer figure img {
     width: 500px;
@@ -38,6 +76,10 @@ footer ul {
   }
 
   .texto-footer {
+    font-size: 1rem;
+  }
+
+  .cookies p {
     font-size: 1rem;
   }
 }
@@ -62,5 +104,34 @@ footer ul {
   .texto-footer {
     font-size: 0.75rem;
     text-align: center;
+  }
+
+  .cookies {
+    padding: 10px 20px;
+    bottom: 30px;
+  }
+
+  .cookies p {
+    font-size: 0.625rem;
+    margin-right: 20px;
+  }
+
+  .cookies button {
+    padding: 4px 8px;
+    font-size: 0.825rem;
+  }
+
+  .cookies.fechado {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .cookies p {
+    font-size: 0.5rem;
+  }
+
+  .cookies button {
+    font-size: 0.825rem;
   }
 }
