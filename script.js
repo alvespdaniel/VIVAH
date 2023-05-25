@@ -16,11 +16,23 @@ botaoMobile.addEventListener('click', menuAtivado);
 botaoMobile.addEventListener('click', botaoFechar);
 
 
-const aceitarCookies = document.querySelector('.aceitar-cookies');
+// const aceitarCookies = document.querySelector('.aceitar-cookies');
 
-function fecharCookies(){
+// function fecharCookies(){
+//   const avisoCookies = document.querySelector('.cookies');
+//   avisoCookies.classList.toggle('fechado')
+// }
+
+// aceitarCookies.addEventListener('click', fecharCookies)
+
+const lsContent = localStorage.getItem('cookies');
+if(lsContent) {
+
   const avisoCookies = document.querySelector('.cookies');
-  avisoCookies.classList.toggle('fechado')
-}
+  const aceitarCookies = document.querySelector('.aceitar-cookies');
 
-aceitarCookies.addEventListener('click', fecharCookies)
+  aceitarCookies.addEventListener('click', ()=>{
+    avisoCookies.remove();
+    localStorage.setItem('cookies', '123');
+  })
+}
