@@ -108,7 +108,7 @@ footer ul {
 
   .cookies {
     padding: 10px 20px;
-    bottom: 30px;
+    bottom: 35px;
   }
 
   .cookies p {
@@ -123,15 +123,5 @@ footer ul {
 
   .cookies.fechado {
     display: none;
-  }
-}
-
-@media (max-width: 425px) {
-  .cookies p {
-    font-size: 0.5rem;
-  }
-
-  .cookies button {
-    font-size: 0.825rem;
   }
 }
