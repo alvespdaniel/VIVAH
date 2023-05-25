@@ -51,3 +51,10 @@
 .custom-shape-divider-bottom-1684614122 .shape-fill {
   fill: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+  .politica-privacidade span,
+  .politica-privacidade a {
+    font-size: 0.825rem;
+  }
+}
