@@ -63,7 +63,8 @@ footer ul {
 }
 
 #aceitar-cookies {
-  margin-top: 4px;
+  margin-top: 8px;
+  justify-self: end;
 }
 
 @media (max-width: 768px) {
