@@ -54,3 +54,18 @@ document.getElementById('aceitar-cookies').addEventListener('click', function() 
 });
 
 checkCookie();
+
+const imagens = document.querySelectorAll('#galeria ul li img');
+
+function galeriaTrocar(event) {
+  const principal = document.querySelector('#imagem-principal');
+  const clicada = event.currentTarget;
+  principal.src = clicada.src;
+  principal.setAttribute('alt', clicada.getAttribute('alt'));
+}
+
+function galeriaClique(imagem) {
+  imagem.addEventListener('click', galeriaTrocar);
+}
+
+imagens.forEach(galeriaClique);

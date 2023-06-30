@@ -66,6 +66,19 @@ footer ul {
   margin-top: 8px;
 }
 
+.daniel {
+  justify-self: center;
+}
+
+.alves {
+  color: #35c56a;
+  transition: 0.3s;
+}
+
+.alves:hover {
+  color: #0d4120;
+}
+
 @media (max-width: 768px) {
   footer figure img {
     width: 500px;

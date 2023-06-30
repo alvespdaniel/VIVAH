@@ -86,6 +86,10 @@
     height: 30px;
     top: 65%;
   }
+
+  .titulo-topico-resultados {
+    padding-top: 30px !important;
+  }
 }
 
 .container-resultados::-webkit-scrollbar {
