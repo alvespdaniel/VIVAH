@@ -27,7 +27,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25;
-  color: #fff;
+  color: #fff !important;
 }
 
 .maiuscula {
