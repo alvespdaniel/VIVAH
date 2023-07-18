@@ -19,6 +19,7 @@ main {
   padding-left: 94px;
   font-size: 6rem;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
 }
 
 .sorrisos {
@@ -97,9 +98,26 @@ main {
     font-size: 3.25rem !important;
   }
 
-  main {
-    background: url(../img/garota-sorrindo-verde.webp) no-repeat right !important;
+  /* main {
+    background: url(../img/foto-banner-vivah.webp) no-repeat right !important;
     background-size: contain !important;
     background-blend-mode: overlay !important;
+  } */
+
+  main {
+    background: none !important;
+    position: relative;
+  }
+
+  .introducao.container {
+    padding-right: 0px !important;
+  }
+
+  .imagem-intro {
+    display: block;
+    position: absolute;
+    z-index: 999;
+    bottom: 0px;
+    right: -120px;
   }
 }
