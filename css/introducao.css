@@ -31,7 +31,6 @@ main {
   width: 100%;
   object-fit: cover;
   object-position: top;
-  mix-blend-mode: overlay;
 }
 
 .custom-shape-divider-bottom-1684189273 {
@@ -116,7 +115,6 @@ main {
   .imagem-intro {
     display: block;
     position: absolute;
-    mix-blend-mode: normal;
     bottom: 0px;
     right: -120px;
   }
