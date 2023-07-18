@@ -116,7 +116,7 @@ main {
   .imagem-intro {
     display: block;
     position: absolute;
-    z-index: 999;
+    mix-blend-mode: normal;
     bottom: 0px;
     right: -120px;
   }
