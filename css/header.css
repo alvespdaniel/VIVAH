@@ -73,6 +73,7 @@ body {
   .botao-whatsapp {
     gap: 8px;
     right: 12px;
+    bottom: 20px;
   }
 }
 
@@ -85,6 +86,7 @@ body {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  z-index: 10000;
 }
 
 .menu-header li a {

@@ -26,13 +26,6 @@
   fill: #FFFFFF;
 }
 
-.container-resultados {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  margin-bottom: 80px;
-}
-
 .custom-shape-divider-bottom-1684792491 {
   position: absolute;
   bottom: 0;
@@ -68,6 +61,8 @@
   padding: 60px 0px;
   display: flex;
   overflow-x: scroll;
+  gap: 40px;
+  margin-bottom: 80px;
 }
 
 #nossos-resultados .container {

@@ -93,8 +93,14 @@ main {
   /* Introdução */
   .titulo-intro {
     padding: 0px !important;
-    padding-bottom: 100px !important;
+    padding-bottom: 20px !important;
     font-size: 3.25rem !important;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .introducao.container {
+    padding-top: 20px;
   }
 
   /* main {
@@ -104,18 +110,12 @@ main {
   } */
 
   main {
-    background: none !important;
+    background-position: top !important;
     position: relative;
-  }
-
-  .introducao.container {
-    padding-right: 0px !important;
   }
 
   .imagem-intro {
     display: block;
-    position: absolute;
-    bottom: 0px;
-    right: -120px;
+    padding-left: 10px;
   }
 }
