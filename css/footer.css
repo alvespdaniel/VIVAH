@@ -17,7 +17,6 @@ footer ul {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  margin-bottom: 28px;
 }
 
 .texto-footer {
@@ -96,9 +95,10 @@ footer ul {
 }
 
 .politica-privacidade {
-  text-align: center;
+  justify-self: center;
   color: #C79D45;
   transition: 0.2s;
+  width: max-content;
 }
 
 .politica-privacidade:hover {
@@ -141,7 +141,6 @@ footer ul {
 
   footer ul {
     gap: 32px;
-    margin: 20px 0px;
   }
 
   .texto-footer {
@@ -162,5 +161,10 @@ footer ul {
   #cookies button {
     padding: 4px 8px;
     font-size: 0.825rem;
+  }
+
+  .bi {
+    height: 30px !important;
+    width: 30px !important;
   }
 }
