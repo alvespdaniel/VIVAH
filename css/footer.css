@@ -79,6 +79,32 @@ footer ul {
   color: #0d4120;
 }
 
+.icone-footer .bi {
+  transition: 0.3s;
+}
+
+.icone-footer:hover .bi-whatsapp {
+  fill: #25D366;
+}
+
+.icone-footer:hover .bi-instagram {
+  fill: #E1306C;
+}
+
+.icone-footer:hover .bi-geo-alt {
+  fill: #e7220c;
+}
+
+.politica-privacidade {
+  text-align: center;
+  color: #C79D45;
+  transition: 0.2s;
+}
+
+.politica-privacidade:hover {
+  color: #765b21;
+}
+
 @media (max-width: 768px) {
   footer figure img {
     width: 500px;
